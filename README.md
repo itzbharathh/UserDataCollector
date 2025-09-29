@@ -18,11 +18,24 @@ It demonstrates end-to-end setup of a LAMP environment, database configuration, 
 
 ---
 
-## Database Setup
+## 🖼️ Screenshots
 
-CREATE DATABASE udb;
-CREATE USER 'user'@'%' IDENTIFIED BY 'User@123';
-GRANT ALL PRIVILEGES ON udb.* TO 'user'@'%';
-FLUSH PRIVILEGES;
+### PHP Home Page
+![PHP home Page](images/form.png)
+
+### Writing Inputs
+![Php inputs](images/WritingInputs.png)
+
+### File Upload Success
+![Result](images/Output.png)
+
+### Database Table
+![Database Check](images/database.png)
+
+### Storing Path
+![Uploads](images/wincp.png)
+
+
+
 
 
